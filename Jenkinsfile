@@ -4,6 +4,7 @@ pipeline{
         stage('Build'){
             steps{
             echo "Step 1 - Build"
+	    sh "rm -Rf project00"
 	    sh "git clone https://github.com/gsudiro/project00.git"
             }
         }
