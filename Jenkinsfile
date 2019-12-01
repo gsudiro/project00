@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
             echo "Step 1 - Build"
-	    bat "git clone https://github.com/gsudiro/project00.git"
+	    sh "git clone https://github.com/gsudiro/project00.git"
             }
         }
         stage('Test'){
