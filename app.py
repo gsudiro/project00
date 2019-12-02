@@ -31,4 +31,4 @@ def autoCompleteRequest():
 
 
 if __name__ == "__main__":
-    app.run('0.0.0.0',5000) # run server on localhost and port 500
+    app.run('127.0.0.1',5000) # run server on localhost and port 5000
