@@ -1,6 +1,6 @@
 """
 In order to execute this program you neet to have python3 installed.
-"apt update && apt install python3 pip3" (under ubuntu/debian based distro)
+"apt update && apt install python3 python3-pip" (under ubuntu/debian based distro)
 "pip3 install -r requirements.txt" to satisfy all frameworks. 
 Now run python3 app.py under project00 directory using a terminal.
 You can click over "127.0.0.1" with ctrl pressed or open your web brower at 127.0.0.1:5000.
